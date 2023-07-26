@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: linear-gradient(to right, rgba(32, 32, 219, 0.575), rgba(255, 255, 255, 0.527));
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+           width: 720px;
+           height: 420px;
+           background-color: green;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+           border-radius: 10px;
+           box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+        }
+
+        .item {
+            height: 120px;
+            width: 120px;
+            border: 3px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+
+        .circulo {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-color: blue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+       body h1 {
+           position: absolute;
+           top: 120px;
+           color: white;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>flex box</h1>
+        <div class="item">
+            
+            <div class="circulo">1</div>
+        </div>
+        <div class="item">
+            <div class="circulo">2</div>
+        </div>
+        <div class="item">
+            <div class="circulo">3</div>
+        </div>
+    </div>
+    
+</body>
+</html>
